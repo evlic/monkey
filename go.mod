@@ -1,4 +1,4 @@
-module github.com/go-kiss/monkey
+module monkey
 
 go 1.18
 

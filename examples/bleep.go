@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-kiss/monkey"
+	"monkey"
 )
 
 func main() {

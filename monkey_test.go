@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kiss/monkey"
-	"github.com/go-kiss/monkey/demo"
+	"monkey"
+	"monkey/demo"
 )
 
 func no() bool  { return false }
@@ -247,7 +247,7 @@ func first[T any](a, b T) T { return a }
 
 func second[T any](a, b T) T { return b }
 
-// https://github.com/go-kiss/monkey/issues/8
+// https://monkey/issues/8
 func TestIssue8(t *testing.T) {
 	t1 := TreeNode{ID: 1}
 	t2 := TreeNode{ID: 2}

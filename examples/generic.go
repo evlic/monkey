@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-kiss/monkey"
+	"monkey"
 )
 
 func sum[T int | float64](a, b T) T {

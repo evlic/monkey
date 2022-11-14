@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-kiss/monkey"
+	"monkey"
 )
 
 func main() {
