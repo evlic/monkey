@@ -21,7 +21,7 @@ Bouke 已经不再维护原项目，所以只能开一个新项目了🤣。
 首先，引入 monkey 包
 
 ```bash
-go get github.com/evlic/monkey
+go getgithub.com/evlic/monkey
 ```
 
 然后，调用 `monkey.Patch` 方法 mock 指定函数。

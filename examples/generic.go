@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	" github.com/evlic/monkey"
+	"github.com/evlic/monkey"
 )
 
 func sum[T int | float64](a, b T) T {

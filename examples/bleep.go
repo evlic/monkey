@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	" github.com/evlic/monkey"
+	"github.com/evlic/monkey"
 )
 
 func main() {

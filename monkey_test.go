@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	" github.com/evlic/monkey"
-	" github.com/evlic/monkey/demo"
+	"github.com/evlic/monkey"
+	"github.com/evlic/monkey/demo"
 )
 
 func no() bool  { return false }
