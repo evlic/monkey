@@ -1,6 +1,6 @@
 # Go语言猴子补丁框架 🙉 🐒
 
-![test workflow](https://monkey/actions/workflows/go.yml/badge.svg)
+![test workflow](https://github.com/go-kiss/monkey/actions/workflows/go.yml/badge.svg)
 
 Go 语言猴子补丁（monkey patching）框架。
 
@@ -21,7 +21,7 @@ Bouke 已经不再维护原项目，所以只能开一个新项目了🤣。
 首先，引入 monkey 包
 
 ```bash
-go get monkey
+go get github.com/evlic/monkey
 ```
 
 然后，调用 `monkey.Patch` 方法 mock 指定函数。
@@ -32,7 +32,7 @@ package main
 import (
 	"fmt"
 
-	"monkey"
+	"github.com/go-kiss/monkey"
 )
 
 func sum(a, b int) int { return a + b }

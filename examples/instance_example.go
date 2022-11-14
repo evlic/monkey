@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/http"
 
-	"monkey"
+	" github.com/evlic/monkey"
 )
 
 func main() {
