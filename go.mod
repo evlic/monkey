@@ -1,4 +1,4 @@
-modulegithub.com/evlic/monkey
+module github.com/evlic/monkey
 
 go 1.18
 
